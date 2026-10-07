@@ -1,0 +1,38 @@
+name: LinkCollector - feature or improvement
+description: Suggest a new feature or an improvement for LinkCollector
+title: "[LinkCollector] "
+labels: ["enhancement", "project:linkcollector"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This suggestion is for **LinkCollector**. Suggestions here are **public**, so please do not include passwords,
+        personal data or private links. For a private question, use the contact form on almostcyb.org instead.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Describe the feature or improvement in a few sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: What problem does it solve, or what would it make easier?
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Device and system (optional)
+      placeholder: "e.g. iPhone 15, iOS 26.1 or MacBook Pro, macOS 26.1"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or mock-ups (optional)
+      description: Drag and drop images into this box, or paste them. Hide anything private first.
+    validations:
+      required: false
